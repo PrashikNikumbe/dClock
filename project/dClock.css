@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#id1{
+  font-size: 40px;
+  color: #009688;
+}
+.class1{
+  margin-top: 10px;
+  margin-left:40px;
+  margin-right: 10px;
+  font-size: 20px;
+  border-bottom: 2px solid yellow;
+  border-top: 2px solid yellow;
+  width: 100px;
+  text-align: center;
+  padding: 3px;
+}
+
+.class1:hover{
+  border-left: 2px solid yellow;
+  border-right: 2px solid yellow;
+  border-bottom: 2px solid #212529;
+  border-top: 2px solid #212529;
+}
+
+#divId
+{
+  margin-top: 60px;
+  height: 400px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.Sec{
+    animation:spin 5s linear infinite;
+
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#divId p{
+  text-align: center;
+  margin-bottom: 20px; 
+  color: #ff5722;
+}
+
+.time span{
+    display: inline-block;
+    border: 2px solid yellow;
+    padding: 5px;
+    width: 60px;
+    height:60px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #009688;
+
+}
+
+.date{
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: #009688;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#divIdDark{
+  margin-top: 60px;
+  height: 400px;
+
+}
+#divIdDark p{
+  text-align: center;
+  margin-bottom: 20px; 
+  color: #009688;
+}
+.timeDark span{
+    display: inline-block;
+    border: 2px solid yellow;
+    padding: 5px;
+    width: 60px;
+    height:60px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    color:#ff5722 ;
+}
+.dateDark span{
+      color:#ff5722 ;
+
+}
+
+
+@media only screen and (min-width: 375px){/* smartphones, iPhone, portrait 480x320 phones */
+  #divId{
+    width: 350px;
+    font-size: 25px;
+  }
+  #divIdDark{
+    font-size: 25px;
+    width: 350px;
+  }
+  
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    #divId{
+    width: 450px;
+    font-size: 25px;
+  }
+    #divIdDark{
+    font-size: 25px;
+    width: 350px;
+  }
+  @media (min-width:641px)  {/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  #divId{
+    width: 580px;
+    font-size: 26px;
+  }
+    #divIdDark{
+    font-size: 26px;
+    width: 580px;
+  }
+  @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  #divId{
+    width: 800px;
+    font-size: 27px;
+  }
+    #divIdDark{
+    font-size: 27px;
+    width: 800px;
+  }
+
+
+
+  }
+
+
+
+}
+
+
